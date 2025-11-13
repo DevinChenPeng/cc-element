@@ -1,7 +1,7 @@
 /*
  * @Description:
  * @Date: 2021-09-13 17:12:40
- * @LastEditTime: 2025-11-13 10:25:01
+ * @LastEditTime: 2025-11-13 10:28:47
  * @FilePath: \element-ui_table_form\vue.config.js
  * @Author: Devin
  */
@@ -9,7 +9,7 @@ const path = require("path");
 const resolve = (dir) => path.join(__dirname, dir);
 module.exports = {
   outputDir: `docs`,
-  publicPath: "/",
+  publicPath: "/cc-element/",
   assetsDir: "static",
   css: {
     loaderOptions: {
