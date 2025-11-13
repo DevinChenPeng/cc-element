@@ -47,7 +47,7 @@ Vue.use(CcSelect)
 
 在node_modules中找到cc-element下面的js文件夹
 
-![5](http://devincp.gitee.io/cc_element/5.png)
+![5](https://devinchenpeng.github.io/cc-element/5.png)
 
 将里面的js文件复制到下图所在位置，这些js都是组件的基本配置，可以根据自己需要进行修改。
 
