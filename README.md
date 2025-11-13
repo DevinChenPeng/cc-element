@@ -6,13 +6,13 @@
 
 > npm install cc-element
 
-**在线文档地址：http://devincp.gitee.io/cc_element/#/home/index**
+**在线文档地址：https://devinchenpeng.github.io/cc-element/index.html#/home/index**
 
-<img src="http://devincp.gitee.io/cc_element/12.png" alt="image-20220106100600889" style="zoom:50%;" />
+<img src="https://devinchenpeng.github.io/cc-element/12.png" alt="image-20220106100600889" style="zoom:50%;" />
 
-![image-20220106100646706](http://devincp.gitee.io/cc_element/32.png)
+![image-20220106100646706](https://devinchenpeng.github.io/cc-element/32.png)
 
-![image-20220106100727083](http://devincp.gitee.io/cc_element/34.png)
+![image-20220106100727083](https://devinchenpeng.github.io/cc-element/34.png)
 
 ## 快速开始
 
@@ -51,15 +51,15 @@ Vue.use(CcSelect)
 
 将里面的js文件复制到下图所在位置，这些js都是组件的基本配置，可以根据自己需要进行修改。
 
-![image-20211229162749214](http://devincp.gitee.io/cc_element/6.png)
+![image-20211229162749214](https://devinchenpeng.github.io/cc-element/6.png)
 
 ## 额外需要文件
 
 > 用于表格，下拉和二次弹框的后端数据接口
 
-![image-20211021134746371](http://devincp.gitee.io/cc_element/1.png)
+![image-20211021134746371](https://devinchenpeng.github.io/cc-element/1.png)
 
-![img](http://devincp.gitee.io/cc_element/2.png)
+![img](https://devinchenpeng.github.io/cc-element/2.png)
 
 ```js
 import axios from '@/utils/axios/index';
