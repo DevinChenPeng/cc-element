@@ -1,0 +1,24 @@
+.confirmButtonClass {
+  background-color: $AC2 !important;
+  border-color: $AC2 !important;
+  color: white ;
+  height: 32px ;
+}
+
+.cancelButtonClass {
+  color: $AC2 !important;
+  border-color: $AC2 !important;
+  height: 32px ;
+}
+.el-message-box__header{
+  padding: 20px;
+}
+.el-message-box__headerbtn{
+  top: 20px;
+  right: 20px;
+}
+.el-message-box {
+  width: 350px;
+  padding-bottom: 20px;
+  min-height: 160px;
+}

@@ -1,0 +1,12 @@
+$borderColor: $AC2;
+$activeBgColor: $AC2;
+.el-pagination {
+  overflow-y: auto;
+}
+.el-pagination__sizes .el-input .el-input__inner:hover {
+  border-color: $borderColor;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: $activeBgColor;
+}

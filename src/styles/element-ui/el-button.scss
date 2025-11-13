@@ -1,0 +1,78 @@
+$basicBtnBg: $AC2;
+$basicBtnDisabledBg: #ccc;
+$basicBtnBgHover: $AC1;
+$basicBtnColor: #fff;
+$basicBtnTextColor: $TC3;
+$basicBtnHoverColor: #fff;
+$basicBtnWColor: $AC2;
+$basicBtnWBgHover: $AC2;
+
+.el-button--text.el-button--small {
+  min-width: 16px;
+  padding: 0px 0px;
+  height: 32px;
+}
+
+.el-button--small {
+  min-width: 84px;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.btn {
+  border-color: $basicBtnBg;
+  color: $basicBtnColor;
+}
+
+.button-basic {
+  background-color: $basicBtnBg;
+  @extend .btn;
+}
+
+.button-basic:hover,
+.button-basic:focus {
+  @extend .btn;
+  background-color: $basicBtnBgHover;
+}
+
+.btnw {
+  border-color: $basicBtnBg;
+  color: $basicBtnWColor;
+}
+
+.button-basic-w {
+  @extend .btnw;
+}
+
+.button-basic-w:hover,
+.button-basic-w:focus {
+  background-color: $basicBtnWBgHover 10%;
+  @extend .btnw;
+}
+
+.el-button.is-disabled,
+.el-button.is-disabled:focus,
+.el-button.is-disabled:hover {
+  background-color: $basicBtnDisabledBg;
+  color: $basicBtnColor;
+  border-color: $basicBtnDisabledBg;
+}
+
+.button-basic-w.is-disabled,
+.button-basic-w.is-disabled:focus,
+.button-basic-w.is-disabled:hover {
+  background-color: #fff;
+  border-color: $basicBtnDisabledBg;
+  color: $basicBtnDisabledBg;
+}
+
+.el-button.el-button--text {
+  color: $basicBtnTextColor;
+}
+
+.el-button.is-disabled.el-button--text {
+  background-color: inherit;
+  color: #ccc;
+  border: none;
+}

@@ -1,0 +1,36 @@
+$AC1: rgba(0, 33, 95, 1);
+$AC2: rgba(0, 47, 136, 1);
+$AC3: rgba(102, 122, 159, 1);
+$MC1: rgba(238, 138, 29, 1);
+$MC2: rgba(253, 195, 49, 1);
+$MC3: rgba(117, 193, 64, 1);
+$MC4: rgba(85, 196, 242, 1);
+$MC5: rgba(243, 83, 83, 1);
+$MC6: rgba(209, 222, 249, 1);
+$MC7: rgba(176, 222, 237, 1);
+$MC8: rgba(202, 214, 223, 1);
+$MC9: rgba(234, 238, 246, 1);
+$TC1: rgba(0, 33, 95, 1);
+$TC2: rgba(154, 166, 192, 1);
+$TC3: rgba(0, 145, 255, 1);
+$boxShadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
+
+
+:export {
+  AC1: $AC1;
+  AC2: $AC2;
+  AC3: $AC3;
+  MC1: $MC1;
+  MC2: $MC2;
+  MC3: $MC3;
+  MC4: $MC4;
+  MC5: $MC5;
+  MC6: $MC6;
+  MC7: $MC7;
+  MC8: $MC8;
+  MC9: $MC9;
+  TC1: $TC1;
+  TC2: $TC2;
+  TC3: $TC3;
+  boxShadow: boxShadow;
+}
