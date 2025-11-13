@@ -6,7 +6,7 @@
 
 > npm install cc-element
 
-**在线文档地址：https://devinchenpeng.github.io/cc-element/index.html#/home/index**
+**在线文档地址：https://devinchenpeng.github.io/cc-element/#/home/index**
 
 <img src="https://devinchenpeng.github.io/cc-element/12.png" alt="image-20220106100600889" style="zoom:50%;" />
 
