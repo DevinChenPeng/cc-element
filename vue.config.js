@@ -1,14 +1,14 @@
 /*
  * @Description:
  * @Date: 2021-09-13 17:12:40
- * @LastEditTime: 2021-12-30 21:15:27
+ * @LastEditTime: 2025-11-13 10:17:01
  * @FilePath: \element-ui_table_form\vue.config.js
  * @Author: Devin
  */
 const path = require("path");
 const resolve = (dir) => path.join(__dirname, dir);
 module.exports = {
-  outputDir: `dist-cc`,
+  outputDir: `dist`,
   publicPath: "/cc_element/",
   assetsDir: "static",
   css: {
@@ -31,7 +31,7 @@ module.exports = {
     //   jsonpFunction: `webpackJsonp_${packageName}`,
     // },
   },
-  
+
   devServer: {
     hot: true,
     disableHostCheck: true,
